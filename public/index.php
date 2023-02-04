@@ -12,8 +12,8 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 
 // Set the `time_limit` and `memory_limit`, if we're allowed to
 set_time_limit(0);
-if (Config::convertPHPSizeToBytes(ini_get('memory_limit')) < 1073741824) {
-    @ini_set('memory_limit', '1024M');
+if (Config::convertPHPSizeToBytes(ini_get('memory_limit')) < 2147483648) {
+    @ini_set('memory_limit', '2024M');
 }
 
 (new Dotenv())->bootEnv(dirname(__DIR__) . '/.env');
