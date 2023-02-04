@@ -7,7 +7,7 @@ main:
     link: homepage
     class: homepage
   - label: About
-    link: page/about
+    link: page/13
 #    submenu:
 #        - label: Sub 1
 #          link: entry/39
