@@ -22,6 +22,7 @@
         "paragonie/random_compat": "*"
     },
     "require-dev": {
+        "bolt/deployer": "^1.0",
         "phpstan/phpstan": "^0.12.48",
         "phpstan/phpstan-doctrine": "^0.12.20",
         "phpstan/phpstan-symfony": "^0.12.8",
